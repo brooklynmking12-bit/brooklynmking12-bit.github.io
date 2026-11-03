@@ -1,217 +1,441 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Brooklyn's Custom Nails — Nail Studio &amp; Custom Press-On Nails</title>
-  <meta name="description" content="A calm nail studio for manicures and pedicures, plus hand-made custom press-on nails designed for you and shipped to your door.">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nails X Mae — Manicures &amp; Pedicures | New Braunfels, TX</title>
+<meta name="description" content="Nails X Mae — gel manicures, gel pedicures, builder gel overlays and gel-X sets in New Braunfels, TX. Open 7 days a week, 9am–6pm. Custom designs welcome.">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <link href="css/styles.css" rel="stylesheet">
+<style>
+  :root{
+    --cream:#f6efe7;
+    --cream-2:#fbf7f2;
+    --espresso:#3a2d26;
+    --mocha:#6b4e35;
+    --tan:#a9825e;
+    --rose:#b47f74;
+    --rose-dark:#8d5f56;
+    --line:rgba(58,45,38,.14);
+  }
+
+  body{
+    font-family:'Jost',system-ui,sans-serif;
+    color:var(--espresso);
+    background-color:var(--cream);
+    position:relative;
+  }
+
+  /* Muted cheetah print — generated pattern, sits behind everything */
+  body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    z-index:-1;
+    opacity:.16;
+    background-color:var(--cream);
+    background-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300' viewBox='0 0 300 300'><g fill='%236b4e35'><ellipse cx='28' cy='34' rx='13' ry='11' transform='rotate(-18 28 34)'/><ellipse cx='74' cy='18' rx='9' ry='8' transform='rotate(25 74 18)'/><ellipse cx='118' cy='46' rx='12' ry='10' transform='rotate(10 118 46)'/><ellipse cx='166' cy='22' rx='8' ry='7' transform='rotate(-30 166 22)'/><ellipse cx='206' cy='52' rx='13' ry='11' transform='rotate(15 206 52)'/><ellipse cx='254' cy='26' rx='10' ry='9' transform='rotate(-10 254 26)'/><ellipse cx='288' cy='62' rx='11' ry='9' transform='rotate(20 288 62)'/><ellipse cx='-12' cy='62' rx='11' ry='9' transform='rotate(20 -12 62)'/><ellipse cx='12' cy='78' rx='9' ry='8' transform='rotate(30 12 78)'/><ellipse cx='312' cy='78' rx='9' ry='8' transform='rotate(30 312 78)'/><ellipse cx='52' cy='96' rx='12' ry='10' transform='rotate(-22 52 96)'/><ellipse cx='96' cy='74' rx='8' ry='7' transform='rotate(12 96 74)'/><ellipse cx='142' cy='104' rx='13' ry='11' transform='rotate(-8 142 104)'/><ellipse cx='186' cy='88' rx='9' ry='8' transform='rotate(28 186 88)'/><ellipse cx='228' cy='112' rx='11' ry='10' transform='rotate(-15 228 112)'/><ellipse cx='270' cy='94' rx='8' ry='7' transform='rotate(18 270 94)'/><ellipse cx='30' cy='140' rx='11' ry='9' transform='rotate(22 30 140)'/><ellipse cx='72' cy='166' rx='9' ry='8' transform='rotate(-25 72 166)'/><ellipse cx='116' cy='148' rx='13' ry='11' transform='rotate(14 116 148)'/><ellipse cx='160' cy='178' rx='8' ry='7' transform='rotate(-12 160 178)'/><ellipse cx='204' cy='154' rx='12' ry='10' transform='rotate(20 204 154)'/><ellipse cx='248' cy='182' rx='10' ry='8' transform='rotate(-20 248 182)'/><ellipse cx='286' cy='146' rx='9' ry='8' transform='rotate(10 286 146)'/><ellipse cx='-14' cy='146' rx='9' ry='8' transform='rotate(10 -14 146)'/><ellipse cx='18' cy='210' rx='12' ry='10' transform='rotate(-16 18 210)'/><ellipse cx='60' cy='238' rx='8' ry='7' transform='rotate(24 60 238)'/><ellipse cx='104' cy='214' rx='11' ry='9' transform='rotate(-28 104 214)'/><ellipse cx='148' cy='246' rx='13' ry='11' transform='rotate(8 148 246)'/><ellipse cx='192' cy='220' rx='9' ry='8' transform='rotate(18 192 220)'/><ellipse cx='236' cy='250' rx='11' ry='9' transform='rotate(-14 236 250)'/><ellipse cx='278' cy='222' rx='8' ry='7' transform='rotate(26 278 222)'/><ellipse cx='40' cy='282' rx='10' ry='9' transform='rotate(12 40 282)'/><ellipse cx='40' cy='-18' rx='10' ry='9' transform='rotate(12 40 -18)'/><ellipse cx='130' cy='288' rx='9' ry='8' transform='rotate(-22 130 288)'/><ellipse cx='130' cy='-12' rx='9' ry='8' transform='rotate(-22 130 -12)'/><ellipse cx='214' cy='284' rx='12' ry='10' transform='rotate(16 214 284)'/><ellipse cx='214' cy='-16' rx='12' ry='10' transform='rotate(16 214 -16)'/></g><g fill='%23a9825e' opacity='.75'><ellipse cx='50' cy='56' rx='5' ry='4'/><ellipse cx='142' cy='24' rx='4' ry='4'/><ellipse cx='236' cy='78' rx='5' ry='4'/><ellipse cx='88' cy='122' rx='4' ry='4'/><ellipse cx='176' cy='130' rx='5' ry='4'/><ellipse cx='262' cy='140' rx='4' ry='4'/><ellipse cx='48' cy='192' rx='5' ry='4'/><ellipse cx='136' cy='196' rx='4' ry='4'/><ellipse cx='224' cy='204' rx='5' ry='4'/><ellipse cx='84' cy='262' rx='4' ry='4'/><ellipse cx='180' cy='268' rx='5' ry='4'/><ellipse cx='266' cy='288' rx='4' ry='4'/></g></svg>");
+    background-size:300px 300px;
+  }
+
+  .display-serif{font-family:'Cormorant Garamond',Georgia,serif;}
+
+  .eyebrow{
+    font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;
+    font-weight:500;color:var(--rose-dark);
+  }
+
+  /* ---- Header ---- */
+  .site-nav{
+    background:rgba(251,247,242,.88);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .brand{
+    font-family:'Cormorant Garamond',Georgia,serif;
+    font-size:1.65rem;font-weight:700;letter-spacing:.04em;
+    color:var(--espresso);text-decoration:none;line-height:1;
+  }
+  .brand .x{color:var(--rose);font-style:italic;padding:0 .12em;}
+
+  .btn-rose{
+    --bs-btn-bg:var(--rose);--bs-btn-border-color:var(--rose);--bs-btn-color:#fff;
+    --bs-btn-hover-bg:var(--rose-dark);--bs-btn-hover-border-color:var(--rose-dark);--bs-btn-hover-color:#fff;
+    --bs-btn-active-bg:var(--rose-dark);--bs-btn-active-border-color:var(--rose-dark);
+    --bs-btn-focus-shadow-rgb:180,127,116;
+    letter-spacing:.08em;text-transform:uppercase;font-size:.82rem;font-weight:500;
+    border-radius:999px;padding:.6rem 1.4rem;
+  }
+  .btn-outline-espresso{
+    --bs-btn-color:var(--espresso);--bs-btn-border-color:rgba(58,45,38,.35);
+    --bs-btn-hover-bg:var(--espresso);--bs-btn-hover-border-color:var(--espresso);--bs-btn-hover-color:var(--cream-2);
+    --bs-btn-focus-shadow-rgb:58,45,38;
+    letter-spacing:.08em;text-transform:uppercase;font-size:.82rem;font-weight:500;
+    border-radius:999px;padding:.6rem 1.4rem;
+  }
+
+  /* ---- Panels ---- */
+  .panel{
+    background:rgba(251,247,242,.92);
+    border:1px solid var(--line);
+    border-radius:1.25rem;
+    box-shadow:0 18px 44px -32px rgba(58,45,38,.55);
+  }
+
+  /* ---- Hero ---- */
+  .hero{padding:4.5rem 0 3.5rem;}
+  .hero h1{font-size:clamp(3rem,8vw,5rem);font-weight:700;line-height:1;letter-spacing:.01em;}
+  .hero-lead{font-size:1.08rem;font-weight:300;color:rgba(58,45,38,.78);max-width:34rem;}
+
+  .hero-circle{
+    position:relative;width:min(27rem,82vw);aspect-ratio:1;margin-inline:auto;
+    border-radius:50%;overflow:hidden;
+    background:radial-gradient(circle at 32% 28%, #e8d3c9 0%, #cfa996 45%, #a9825e 100%);
+    border:10px solid var(--cream-2);
+    box-shadow:0 0 0 1px var(--line), 0 28px 60px -28px rgba(58,45,38,.6);
+    display:grid;place-items:center;
+  }
+  .hero-circle img{width:100%;height:100%;object-fit:cover;display:block;}
+  .hero-circle .monogram{
+    position:absolute;font-family:'Cormorant Garamond',Georgia,serif;
+    font-size:5.5rem;font-weight:600;color:rgba(255,255,255,.9);letter-spacing:.05em;
+    text-shadow:0 2px 18px rgba(58,45,38,.35);
+  }
+  .hero-circle img + .monogram{display:none;}      /* hide fallback once a photo loads */
+  .hero-circle-wrap{position:relative;display:inline-block;padding:1.6rem;}
+
+  .badge-soft{
+    background:rgba(180,127,116,.14);color:var(--rose-dark);
+    border:1px solid rgba(180,127,116,.3);border-radius:999px;
+    padding:.4rem .9rem;font-size:.8rem;font-weight:500;letter-spacing:.06em;
+  }
+
+  /* ---- Services ---- */
+  .section-title{font-size:clamp(2.1rem,5vw,3rem);font-weight:600;}
+  .service{
+    display:flex;align-items:flex-start;gap:1rem;
+    padding:1.15rem 0;border-bottom:1px dashed var(--line);
+  }
+  .service:last-child{border-bottom:0;}
+  .service-name{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.5rem;font-weight:600;line-height:1.2;}
+  .service-note{font-size:.92rem;font-weight:300;color:rgba(58,45,38,.68);}
+  .price{
+    font-family:'Cormorant Garamond',Georgia,serif;font-size:1.45rem;font-weight:700;
+    color:var(--mocha);white-space:nowrap;margin-left:auto;text-align:right;
+  }
+  .price small{display:block;font-family:'Jost',sans-serif;font-size:.74rem;font-weight:400;
+    letter-spacing:.06em;text-transform:uppercase;color:rgba(58,45,38,.55);white-space:nowrap;}
+
+  /* ---- Gallery ---- */
+  .gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
+    gap:.9rem;
+  }
+  @media (min-width:768px){
+    .gallery-grid{grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:1.1rem;}
+  }
+  .gallery-item{
+    position:relative;display:block;
+    aspect-ratio:1/1;                 /* every tile is the same square */
+    overflow:hidden;border-radius:1rem;
+    background:rgba(169,130,94,.12);
+    border:1px solid var(--line);
+    box-shadow:0 14px 32px -26px rgba(58,45,38,.7);
+  }
+  .gallery-item img{
+    width:100%;height:100%;display:block;
+    object-fit:cover;                 /* swap to `contain` to letterbox instead of crop */
+    object-position:center;           /* image is scaled + centered in the square */
+    transition:transform .45s ease;
+  }
+  .gallery-item::after{
+    content:"\F1C5";                  /* bootstrap-icons: image */
+    font-family:"bootstrap-icons";
+    position:absolute;right:.6rem;bottom:.5rem;
+    color:#fff;font-size:1rem;line-height:1;
+    opacity:0;transition:opacity .3s ease;
+    text-shadow:0 1px 8px rgba(58,45,38,.8);
+  }
+  .gallery-item:hover img,
+  .gallery-item:focus-visible img{transform:scale(1.07);}
+  .gallery-item:hover::after,
+  .gallery-item:focus-visible::after{opacity:1;}
+  @media (prefers-reduced-motion:reduce){
+    .gallery-item img{transition:none;}
+    .gallery-item:hover img{transform:none;}
+  }
+
+  /* ---- Custom design callout ---- */
+  .callout{
+    background:linear-gradient(135deg, rgba(180,127,116,.16), rgba(169,130,94,.14));
+    border:1px solid rgba(180,127,116,.34);
+    border-radius:1.25rem;
+  }
+  .callout .phone{
+    font-family:'Cormorant Garamond',Georgia,serif;
+    font-size:clamp(1.9rem,5vw,2.6rem);font-weight:700;color:var(--espresso);
+    text-decoration:none;letter-spacing:.02em;
+  }
+  .callout .phone:hover{color:var(--rose-dark);}
+
+  /* ---- Info ---- */
+  .info-icon{
+    width:3rem;height:3rem;border-radius:50%;display:grid;place-items:center;
+    background:rgba(180,127,116,.15);color:var(--rose-dark);font-size:1.3rem;
+    margin-inline:auto;
+  }
+  .ig-link{color:var(--espresso);text-decoration:none;font-weight:500;}
+  .ig-link:hover{color:var(--rose-dark);}
+
+  footer{border-top:1px solid var(--line);background:rgba(251,247,242,.75);}
+
+  a:focus-visible,.btn:focus-visible{outline:2px solid var(--rose-dark);outline-offset:3px;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto;}}
+</style>
 </head>
 <body>
 
-  <!-- ============ NAV ============ -->
-  <nav class="navbar navbar-expand-lg sticky-top">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">Brooklyn's Custom Nails</a>
-      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="nav">
-        <ul class="navbar-nav ms-auto align-items-lg-center">
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-          <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
-            <a class="btn btn-plum btn-sm" href="services.html#book">Book a visit</a>
-          </li>
-        </ul>
-      </div>
+<!-- ============ HEADER ============ -->
+<header class="site-nav sticky-top">
+  <nav class="container d-flex align-items-center justify-content-between py-3 gap-3">
+    <a class="brand" href="#top">Nails<span class="x">X</span>Mae</a>
+
+    <div class="d-flex align-items-center gap-2 gap-md-3">
+      <a class="d-none d-sm-inline ig-link" href="#gallery">Gallery</a>
+      <a class="d-none d-sm-inline-flex align-items-center gap-2 ig-link" href="https://instagram.com/nailsxm4e" target="_blank" rel="noopener">
+        <i class="bi bi-instagram"></i><span class="d-none d-md-inline">@nailsxm4e</span>
+      </a>
+      <a class="btn btn-rose" href="https://nailsxmae.booksy.com/k" target="_blank" rel="noopener">Book Appointment</a>
     </div>
   </nav>
+</header>
+
+<main id="top">
 
   <!-- ============ HERO ============ -->
-  <header class="hero">
+  <section class="hero">
     <div class="container">
       <div class="row align-items-center g-5">
-        <div class="col-lg-6">
-          <p class="eyebrow">Studio &amp; custom press-ons</p>
-          <h1 class="mb-4">Salon nails, in the chair or in the mail.</h1>
-          <p class="hero-sub measure mb-4">
-            Unhurried manicures and pedicures in a quiet studio — and
-            hand-painted press-on sets made to your measurements, so you can
-            get the same finish at your kitchen table.
+
+        <div class="col-lg-6 text-center text-lg-start">
+          <p class="eyebrow mb-3">New Braunfels, TX &amp; surrounding area</p>
+          <h1 class="display-serif mb-3">Nails <span style="color:var(--rose);font-style:italic">X</span> Mae</h1>
+          <p class="hero-lead mb-4 mx-auto mx-lg-0">
+            Manicures, pedicures and custom nail art — done slow, clean and exactly the way
+            you pictured it. Open seven days a week, 9am&ndash;6pm.
           </p>
-          <div class="d-flex flex-wrap gap-3">
-            <a class="btn btn-plum" href="services.html#book">Book an appointment</a>
-            <a class="btn btn-outline-plum" href="services.html#press-ons">Design custom nails</a>
+          <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-lg-start mb-4">
+            <a class="btn btn-rose" href="https://nailsxmae.booksy.com/k" target="_blank" rel="noopener">Book Appointment</a>
+            <a class="btn btn-outline-espresso" href="#services">View Services</a>
+          </div>
+          <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-lg-start">
+            <span class="badge-soft"><i class="bi bi-clock me-1"></i>Open 7 days &middot; 9am&ndash;6pm</span>
+            <span class="badge-soft"><i class="bi bi-brush me-1"></i>Custom designs welcome</span>
           </div>
         </div>
-        <div class="col-lg-6">
-          <div class="row g-3">
-            <div class="col-7">
-              <!-- Swap .photo for <img class="img-fluid rounded-3" src="..." alt="..."> -->
-              <div class="photo photo-tall"></div>
+
+        <div class="col-lg-6 text-center">
+          <div class="hero-circle-wrap">
+            <div class="hero-circle">
+              <!-- Drop a photo named hero.jpg next to this file; the monogram shows until then. -->
+              <img src="images/hero.jpg" alt="Freshly finished gel manicure by Nails X Mae" onerror="this.remove()">
+              <span class="monogram">N<span style="font-style:italic">x</span>M</span>
             </div>
-            <div class="col-5">
-              <div class="photo photo-square photo-deep mb-3"></div>
-              <div class="photo photo-square"></div>
-            </div>
           </div>
         </div>
+
       </div>
     </div>
-  </header>
+  </section>
 
-  <!-- ============ THREE THINGS ============ -->
-  <section class="section">
+  <!-- ============ SERVICES ============ -->
+  <section id="services" class="py-5">
     <div class="container">
-      <div class="row justify-content-center text-center mb-5">
-        <div class="col-lg-7">
-          <p class="eyebrow">What we do</p>
-          <h2 class="mb-3">Three ways to get great nails</h2>
-          <p class="lead-muted mb-0">No upselling, no rushed turnarounds. Pick what fits your week.</p>
-        </div>
+      <div class="text-center mb-4">
+        <p class="eyebrow mb-2">The Menu</p>
+        <h2 class="display-serif section-title mb-0">Services &amp; Pricing</h2>
       </div>
 
-      <div class="row g-4">
-        <div class="col-md-4">
-          <div class="card-clean">
-            <span class="icon-dot" aria-hidden="true">01</span>
-            <h3>Manicures</h3>
-            <p>Classic, gel, and structured builder sets. Clean cuticle work, shaping that lasts, and a finish that doesn't chip in week one.</p>
+      <div class="panel p-4 p-md-5 mx-auto" style="max-width:56rem;">
+
+        <div class="service">
+          <div>
+            <div class="service-name">Soak Offs</div>
+            <div class="service-note">Gentle removal of existing gel, builder gel or gel-X.</div>
           </div>
+          <div class="price">$15</div>
         </div>
-        <div class="col-md-4">
-          <div class="card-clean">
-            <span class="icon-dot" aria-hidden="true">02</span>
-            <h3>Pedicures</h3>
-            <p>A warm soak, honest callus care, and a long massage. Forty-five minutes where nobody asks anything of you.</p>
+
+        <div class="service">
+          <div>
+            <div class="service-name">Gel Manicure</div>
+            <div class="service-note">Shaping, cuticle care and long-wear gel color.</div>
           </div>
+          <div class="price">$25<small>$25+ custom design</small></div>
         </div>
-        <div class="col-md-4">
-          <div class="card-clean">
-            <span class="icon-dot" aria-hidden="true">03</span>
-            <h3>Custom press-ons</h3>
-            <p>Hand-painted sets sized to your nail beds, built on reusable tips. Apply in ten minutes, wear for two weeks, keep the set.</p>
+
+        <div class="service">
+          <div>
+            <div class="service-name">Gel Pedicure</div>
+            <div class="service-note">Soak, shaping, cuticle care and long-wear gel color.</div>
           </div>
+          <div class="price">$25<small>$25+ custom design</small></div>
+        </div>
+
+        <div class="service">
+          <div>
+            <div class="service-name">Builder Gel Overlays</div>
+            <div class="service-note">Added strength and structure over your natural nail.</div>
+          </div>
+          <div class="price">$25<small>$25+ custom design</small></div>
+        </div>
+
+        <div class="service">
+          <div>
+            <div class="service-name">Full Gel-X Set</div>
+            <div class="service-note">Full-coverage soft gel extensions, shaped to your length.</div>
+          </div>
+          <div class="price">$30<small>$30+ custom design</small></div>
+        </div>
+
+        <p class="service-note text-center mt-4 mb-0">
+          Single-color pricing shown. Custom design pricing starts at the listed price and depends on detail.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section id="gallery" class="py-5">
+    <div class="container">
+      <div class="text-center mb-4">
+        <p class="eyebrow mb-2">Recent Work</p>
+        <h2 class="display-serif section-title mb-2">Gallery</h2>
+        <p class="service-note mb-0">Tap any set to view it full size.</p>
+      </div>
+
+      <!-- Add more photos by dropping them in images/2026/nov and copying one block below. -->
+      <div class="gallery-grid">
+        <a class="gallery-item" href="images/2026/nov/image-1.jpg" target="_blank" rel="noopener"><img src="images/2026/nov/image-1.jpg" alt="Nail set by Nails X Mae" loading="lazy"></a>
+        <a class="gallery-item" href="images/2026/nov/image-2.jpg" target="_blank" rel="noopener"><img src="images/2026/nov/image-2.jpg" alt="Nail set by Nails X Mae" loading="lazy"></a>
+        <a class="gallery-item" href="images/2026/nov/image-3.jpg" target="_blank" rel="noopener"><img src="images/2026/nov/image-3.jpg" alt="Nail set by Nails X Mae" loading="lazy"></a>
+        <a class="gallery-item" href="images/2026/nov/image-4.jpg" target="_blank" rel="noopener"><img src="images/2026/nov/image-4.jpg" alt="Nail set by Nails X Mae" loading="lazy"></a>
+        <a class="gallery-item" href="images/2026/nov/image-5.jpg" target="_blank" rel="noopener"><img src="images/2026/nov/image-5.jpg" alt="Nail set by Nails X Mae" loading="lazy"></a>
+        <a class="gallery-item" href="images/2026/nov/image-6.jpg" target="_blank" rel="noopener"><img src="images/2026/nov/image-6.jpg" alt="Nail set by Nails X Mae" loading="lazy"></a>
+        <a class="gallery-item" href="images/2026/nov/image-7.jpg" target="_blank" rel="noopener"><img src="images/2026/nov/image-7.jpg" alt="Nail set by Nails X Mae" loading="lazy"></a>
+        <a class="gallery-item" href="images/2026/nov/image-8.jpg" target="_blank" rel="noopener"><img src="images/2026/nov/image-8.jpg" alt="Nail set by Nails X Mae" loading="lazy"></a>
+        <a class="gallery-item" href="images/2026/nov/image-9.png" target="_blank" rel="noopener"><img src="images/2026/nov/image-9.png" alt="Nail set by Nails X Mae" loading="lazy"></a>
+        <a class="gallery-item" href="images/2026/nov/image-10.png" target="_blank" rel="noopener"><img src="images/2026/nov/image-10.png" alt="Nail set by Nails X Mae" loading="lazy"></a>
+        <a class="gallery-item" href="images/2026/nov/image-11.png" target="_blank" rel="noopener"><img src="images/2026/nov/image-11.png" alt="Nail set by Nails X Mae" loading="lazy"></a>
+        <a class="gallery-item" href="images/2026/nov/image-12.png" target="_blank" rel="noopener"><img src="images/2026/nov/image-12.png" alt="Nail set by Nails X Mae" loading="lazy"></a>
+        <a class="gallery-item" href="images/2026/nov/image-13.png" target="_blank" rel="noopener"><img src="images/2026/nov/image-13.png" alt="Nail set by Nails X Mae" loading="lazy"></a>
+        <a class="gallery-item" href="images/2026/nov/image-14.png" target="_blank" rel="noopener"><img src="images/2026/nov/image-14.png" alt="Nail set by Nails X Mae" loading="lazy"></a>
+        <a class="gallery-item" href="images/2026/nov/image-15.png" target="_blank" rel="noopener"><img src="images/2026/nov/image-15.png" alt="Nail set by Nails X Mae" loading="lazy"></a>
+        <a class="gallery-item" href="images/2026/nov/image-16.png" target="_blank" rel="noopener"><img src="images/2026/nov/image-16.png" alt="Nail set by Nails X Mae" loading="lazy"></a>
+        <a class="gallery-item" href="images/2026/nov/image-17.png" target="_blank" rel="noopener"><img src="images/2026/nov/image-17.png" alt="Nail set by Nails X Mae" loading="lazy"></a>
+        <a class="gallery-item" href="images/2026/nov/image-18.png" target="_blank" rel="noopener"><img src="images/2026/nov/image-18.png" alt="Nail set by Nails X Mae" loading="lazy"></a>
+        <a class="gallery-item" href="images/2026/nov/image-19.png" target="_blank" rel="noopener"><img src="images/2026/nov/image-19.png" alt="Nail set by Nails X Mae" loading="lazy"></a>
+        <a class="gallery-item" href="images/2026/nov/image-20.png" target="_blank" rel="noopener"><img src="images/2026/nov/image-20.png" alt="Nail set by Nails X Mae" loading="lazy"></a>
+        <a class="gallery-item" href="images/2026/nov/image-21.png" target="_blank" rel="noopener"><img src="images/2026/nov/image-21.png" alt="Nail set by Nails X Mae" loading="lazy"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CUSTOM DESIGN CALLOUT ============ -->
+  <section class="pb-5">
+    <div class="container">
+      <div class="callout p-4 p-md-5 text-center mx-auto" style="max-width:56rem;">
+        <p class="eyebrow mb-2"><i class="bi bi-stars me-1"></i>Yes — we do custom designs</p>
+        <h2 class="display-serif mb-3" style="font-size:clamp(1.8rem,4.5vw,2.6rem);font-weight:600;">
+          Bring your inspo pics.
+        </h2>
+        <p class="hero-lead mx-auto mb-4">
+          Chrome, french, hand-painted art, seasonal sets — just call or text the details
+          along with any reference images and we'll quote it and get you booked.
+        </p>
+        <a class="phone d-inline-block mb-3" href="tel:+18303201336">830-320-1336</a>
+        <div class="d-flex flex-wrap gap-2 justify-content-center">
+          <a class="btn btn-rose" href="sms:+18303201336"><i class="bi bi-chat-dots me-2"></i>Text Us</a>
+          <a class="btn btn-outline-espresso" href="tel:+18303201336"><i class="bi bi-telephone me-2"></i>Call Us</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ============ CUSTOM NAILS FEATURE ============ -->
-  <section class="section section-sand">
+  <!-- ============ HOURS / LOCATION / SOCIAL ============ -->
+  <section class="py-5">
     <div class="container">
-      <div class="row align-items-center g-5">
-        <div class="col-lg-6">
-          <div class="photo photo-wide"></div>
-        </div>
-        <div class="col-lg-6">
-          <p class="eyebrow">Made for your hands</p>
-          <h2 class="mb-3">Press-ons that fit like they grew there</h2>
-          <p class="lead-muted">
-            Most press-on kits give you ten generic sizes and hope two of them
-            work. We size each nail individually from a measurement kit we mail
-            you, then paint the set by hand in the studio.
-          </p>
-          <p class="lead-muted">
-            The result sits flush at the cuticle, doesn't catch on your hair,
-            and comes off without damaging your natural nail.
-          </p>
-          <a class="btn btn-plum mt-2" href="services.html#press-ons">See press-on options</a>
-        </div>
-      </div>
-    </div>
-  </section>
+      <div class="row g-4 text-center">
 
-  <!-- ============ HOW IT WORKS ============ -->
-  <section class="section">
-    <div class="container">
-      <div class="row justify-content-center text-center mb-5">
-        <div class="col-lg-7">
-          <p class="eyebrow">How custom sets work</p>
-          <h2 class="mb-0">Three steps, about ten days</h2>
-        </div>
-      </div>
-
-      <div class="row g-5">
         <div class="col-md-4">
-          <span class="step-num" aria-hidden="true">1</span>
-          <h3 class="h5 mb-2">Measure</h3>
-          <p class="mb-0">We mail you a free sizing kit — or stop by the studio and we'll measure in two minutes.</p>
-        </div>
-        <div class="col-md-4">
-          <span class="step-num" aria-hidden="true">2</span>
-          <h3 class="h5 mb-2">Design</h3>
-          <p class="mb-0">Choose length, shape, and finish. Send a reference photo, or let us design something for you.</p>
-        </div>
-        <div class="col-md-4">
-          <span class="step-num" aria-hidden="true">3</span>
-          <h3 class="h5 mb-2">Wear</h3>
-          <p class="mb-0">Your set arrives with adhesive tabs, glue, a buffer, and instructions. Reuse it as many times as you like.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ CTA ============ -->
-  <section class="section cta-band">
-    <div class="container text-center">
-      <div class="row justify-content-center">
-        <div class="col-lg-7">
-          <h2 class="mb-3">Ready when you are</h2>
-          <p class="mb-4">Book a chair, or start a custom set. Either way, we'll take our time.</p>
-          <div class="d-flex flex-wrap gap-3 justify-content-center">
-            <a class="btn btn-light" href="services.html#book">Book an appointment</a>
-            <a class="btn btn-outline-light" href="about.html">Meet the studio</a>
+          <div class="panel h-100 p-4">
+            <div class="info-icon mb-3"><i class="bi bi-clock"></i></div>
+            <h3 class="display-serif mb-2" style="font-size:1.5rem;font-weight:600;">Hours</h3>
+            <p class="service-note mb-0">Open 7 days a week<br>9:00am &ndash; 6:00pm</p>
           </div>
         </div>
+
+        <div class="col-md-4">
+          <div class="panel h-100 p-4">
+            <div class="info-icon mb-3"><i class="bi bi-geo-alt"></i></div>
+            <h3 class="display-serif mb-2" style="font-size:1.5rem;font-weight:600;">Service Area</h3>
+            <p class="service-note mb-0">New Braunfels, TX<br>&amp; surrounding area</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="panel h-100 p-4">
+            <div class="info-icon mb-3"><i class="bi bi-instagram"></i></div>
+            <h3 class="display-serif mb-2" style="font-size:1.5rem;font-weight:600;">Follow Along</h3>
+            <p class="service-note mb-0">
+              <a class="ig-link" href="https://instagram.com/nailsxm4e" target="_blank" rel="noopener">@nailsxm4e</a>
+            </p>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
 
-  <!-- ============ FOOTER ============ -->
-  <footer class="site-footer">
+  <!-- ============ BOOK ============ -->
+  <section id="book" class="py-5">
     <div class="container">
-      <div class="row g-4">
-        <div class="col-lg-5">
-          <h5>Brooklyn's Custom Nails</h5>
-          <p class="mb-0" style="color: rgba(255,255,255,.6); max-width: 24rem;">
-            A small nail studio and custom press-on workshop. Appointments only.
-          </p>
+      <div class="panel text-center p-4 p-md-5 mx-auto" style="max-width:48rem;">
+        <p class="eyebrow mb-2">Appointments</p>
+        <h2 class="display-serif section-title mb-3">Book Your Appointment</h2>
+        <p class="hero-lead mx-auto mb-4">
+          Pick your service, day and time on Booksy &mdash; or call or text
+          <strong>830-320-1336</strong> with any inspiration photos and we'll get you set up.
+        </p>
+        <div class="d-flex flex-wrap gap-2 justify-content-center">
+          <a class="btn btn-rose" href="https://nailsxmae.booksy.com/k" target="_blank" rel="noopener"><i class="bi bi-calendar-check me-2"></i>Book on Booksy</a>
+          <a class="btn btn-outline-espresso" href="sms:+18303201336"><i class="bi bi-chat-dots me-2"></i>Text Us</a>
+          <a class="btn btn-outline-espresso" href="tel:+18303201336"><i class="bi bi-telephone me-2"></i>Call 830-320-1336</a>
         </div>
-        <div class="col-6 col-lg-3">
-          <h5>Visit</h5>
-          <p class="mb-1" style="color: rgba(255,255,255,.6);">
-            123 Example Street<br>
-            San Marcos, TX 78666
-          </p>
-          <p class="mb-0" style="color: rgba(255,255,255,.6);">
-            Tue–Sat, 9am – 6pm
-          </p>
-        </div>
-        <div class="col-6 col-lg-4">
-          <h5>Get in touch</h5>
-          <ul class="list-unstyled mb-0">
-            <li><a href="tel:+15125550123">(512) 555-0123</a></li>
-            <li><a href="mailto:hello@brooklynscustomnails.com">hello@brooklynscustomnails.com</a></li>
-            <li><a href="https://instagram.com">@brooklynscustomnails</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-rule d-flex flex-wrap justify-content-between gap-2">
-        <span>&copy; 2026 Brooklyn's Custom Nails. All rights reserved.</span>
-        <span>Made by hand in Texas.</span>
       </div>
     </div>
-  </footer>
+  </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="py-4 mt-4">
+  <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-2 text-center">
+    <span class="brand" style="font-size:1.25rem;">Nails<span class="x">X</span>Mae</span>
+    <small class="service-note mb-0">New Braunfels, TX &middot; Open daily 9am&ndash;6pm &middot; 830-320-1336</small>
+    <a class="ig-link" href="https://instagram.com/nailsxm4e" target="_blank" rel="noopener">
+      <i class="bi bi-instagram me-1"></i>@nailsxm4e
+    </a>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
